@@ -1,0 +1,54 @@
+baseURL: https://swapi.dev/api/
+
+the height of Darth Vader
+https://swapi.dev/api/people/?search=Darth Vader
+
+the population of the planet Alderaan
+https://swapi.dev/api/planets/2
+
+the name of the manufacturer of the Millennium Falcon
+https://swapi.dev/api/starships/?search=Millennium Falcon
+
+the name of the species that C-3PO belongs to (multiple URLs)
+https://swapi.dev/api/species/2/
+
+the title of each film that Obi-Wan Kenobi is in (multiple URLs)
+"https://swapi.dev/api/films/1/",
+"https://swapi.dev/api/films/2/",
+"https://swapi.dev/api/films/3/",
+"https://swapi.dev/api/films/4/",
+"https://swapi.dev/api/films/5/",
+"https://swapi.dev/api/films/6/"
+
+
+use the search query to get the information about the Millennium Falcon, it’s a starship
+https://swapi.dev/api/starships/?search=Millennium Falcon
+
+INFO
+ "name": "Millennium Falcon",
+            "model": "YT-1300 light freighter",
+            "manufacturer": "Corellian Engineering Corporation",
+            "cost_in_credits": "100000",
+            "length": "34.37",
+            "max_atmosphering_speed": "1050",
+            "crew": "4",
+            "passengers": "6",
+            "cargo_capacity": "100000",
+            "consumables": "2 months",
+            "hyperdrive_rating": "0.5",
+            "MGLT": "75",
+            "starship_class": "Light freighter",
+            "pilots": [
+                "https://swapi.dev/api/people/13/",
+                "https://swapi.dev/api/people/14/",
+                "https://swapi.dev/api/people/25/",
+                "https://swapi.dev/api/people/31/"
+            ],
+            "films": [
+                "https://swapi.dev/api/films/1/",
+                "https://swapi.dev/api/films/2/",
+                "https://swapi.dev/api/films/3/"
+            ],
+            "created": "2014-12-10T16:59:45.094000Z",
+            "edited": "2014-12-20T21:23:49.880000Z",
+            "url": "https://swapi.dev/api/starships/10/"
